@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jeu Cordonnerie Ciel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <img src="logo_cordonnerie.png" alt="Logo" class="logo" />
+    <h1>JOUEZ ET TENTEZ DE GAGNER UN CADEAU !</h1>
+    <button id="play" class="btn">JOUER LA PARTIE</button>
+    <div class="wheel-container" style="display:none;">
+      <div class="arrow"></div>
+      <canvas id="wheel" width="300" height="300"></canvas>
+      <div id="result"></div>
+    </div>
+    <audio id="tick" src="https://actions.google.com/sounds/v1/cartoon/wood_plank_flicks.ogg" preload="auto"></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: radial-gradient(#000, #1c1c1c);
+  color: white;
+  text-align: center;
+}
+.wrapper {
+  padding: 20px;
+}
+.logo {
+  width: 120px;
+  margin: 0 auto 15px;
+  display: block;
+}
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.btn {
+  background: white;
+  color: black;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.wheel-container {
+  margin-top: 30px;
+  position: relative;
+}
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 25px solid red;
+  position: absolute;
+  left: 50%;
+  top: -15px;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+canvas {
+  border-radius: 50%;
+  background: #111;
+}
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
